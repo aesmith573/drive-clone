@@ -5,6 +5,3 @@
 [build.environment]
   NODE_VERSION = "16" # or the version you are using
   NPM_FLAGS = "--legacy-peer-deps"
-
-[build]
-  command = "pnpm install && pnpm run build"
